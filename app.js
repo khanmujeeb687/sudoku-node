@@ -3,7 +3,7 @@ const app=express();
 const morgan=require('morgan');
 const bodyParser=require('body-parser');
 const newsRoute = require('./api/routes/news');
-const adminRoute = require('./api/routes/news');
+const adminRoute = require('./api/routes/admin');
 
 
 app.use(bodyParser.urlencoded({extended:false}));
