@@ -5,13 +5,13 @@ class NewsController{
 
   apiKey='1b95244a4a224694b6e746d66ade82b7';
   data=[
-      'Business',
-      'Entertainment',
-      'General',
-      'Health',
-      'Science',
-      'Sports',
-      'Technology',
+      'business',
+      'entertainment',
+      'general',
+      'health',
+      'science',
+      'sports',
+      'technology',
   ];
 
  async setNews(){
