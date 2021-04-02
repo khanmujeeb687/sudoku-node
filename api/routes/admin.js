@@ -4,7 +4,7 @@ const newsController = require('../controllers/newsController');
 
 
 //normal news
-router.get('/',async (req,res,next)=>{
+router.get('/:secret',async (req,res,next)=>{
     const {secret} = req.params;
     if(secret==='lolmenow'){
         await newsController.setNews();
